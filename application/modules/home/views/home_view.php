@@ -62,6 +62,7 @@
     border: 0px;
 }
 </style>
+
 <div class="ui centered grid" style="width:100%;">
   <div class="computer only row">
     <div class="fifteen wide column" style="text-align:justify;">

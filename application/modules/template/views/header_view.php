@@ -29,13 +29,20 @@
 </style>
 </head>
 <body>
-
+<style type="text/css">
+	
+	 #content{
+      /*margin-right: 35px;*/
+      border:3px solid green;
+     /* margin-left: 35px;*/
+    }
+</style>
 
 
 <div class="ui center aligned armygreen inverted segment" style="margin:0rem 0em;">
 	<div class="ui stackable grid">
 		<div class="computer tablet only row">
-			<div class="ui armygreen inverted fluid eight item menu">
+			<div class="ui armygreen inverted fluid seven item menu">
 				<div class="brand item" style="font-size:20px;">Kabrina's Cafe</div>
 			 	  <a class="item" style="font-size:15px;" href="<?php echo base_url() ?>"> Home </a>
 				  <a class="item" style="font-size:15px;" href="<?php echo base_url() ?>food">Our Food</a>
