@@ -20,9 +20,10 @@ class hire extends MY_Controller{
 		$marker['position'] = '-1.204231, 36.915952';
 		$this->googlemaps->add_marker($marker);
 		$data['map'] = $this->googlemaps->create_map();
-		$data['mobile']=$this->googlemaps->create_map();
 
-		//print_r($data['map']);die;
+		$data['mobile']=$data['map'];
+
+		//print_r($data['mobile']);die;
 
 		$this->template($data);
 
