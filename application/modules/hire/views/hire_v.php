@@ -1,5 +1,5 @@
 
-<div style="width:85%;margin-left:7%;x">
+<div style="width:85%;margin-left:7%;">
 <div class="ui segment"><h2 class="ui centered header"> Hey, Give us a call, look for us at the following address or hire us</h2></div>
 <div id="map">
 		  		<?php //echo $map['js']; ?>
